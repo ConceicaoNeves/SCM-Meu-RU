@@ -19,9 +19,9 @@
         android:supportsRtl="true"
         tools:targetApi="31">
         <activity
-            android:name=".services.cardapios.QuartaFeiraActivity"
+            android:name=".services.cardapios.QuintaFeiraActivity"
             android:exported="true"
-            android:label="@string/toolbar_quarta"
+            android:label="@string/toolbar_quinta"
             android:parentActivityName=".services.cardapios.DiasCardapioActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MeuRU"
