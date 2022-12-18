@@ -19,6 +19,38 @@
         android:supportsRtl="true"
         tools:targetApi="31">
         <activity
+            android:name=".services.cardapios.DiasCardapioActivity"
+            android:exported="true"
+            android:label="@string/txt_tela_dias_semana"
+            android:parentActivityName=".ui.home.MenuActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MeuRU"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".ui.utils.SobreActivity"
+            android:exported="true"
+            android:label="@string/txt_tela_sobre"
+            android:parentActivityName=".ui.home.MenuActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MeuRU"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".ui.utils.DeclaracaoQRcode"
+            android:exported="true"
+            android:label="@string/txt_tela_declaracao"
+            android:parentActivityName=".ui.home.MenuActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MeuRU"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".ui.utils.FichasRefeicaoActivity"
+            android:exported="true"
+            android:label="@string/txt_tela_fichas"
+            android:parentActivityName=".ui.home.MenuActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MeuRU"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
             android:name=".ui.home.MenuActivity"
             android:exported="false"
             android:screenOrientation="portrait"
