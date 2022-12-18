@@ -19,9 +19,9 @@
         android:supportsRtl="true"
         tools:targetApi="31">
         <activity
-            android:name=".services.cardapios.SextaFeiraActivity"
+            android:name=".services.cardapios.SabadoActivity"
             android:exported="true"
-            android:label="@string/toolbar_sexta"
+            android:label="@string/toolbar_sabado"
             android:parentActivityName=".services.cardapios.DiasCardapioActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MeuRU"
