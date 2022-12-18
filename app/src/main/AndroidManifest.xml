@@ -19,6 +19,9 @@
         android:supportsRtl="true"
         tools:targetApi="31">
         <activity
+            android:name=".TercaFeiraActivity"
+            android:exported="false" />
+        <activity
             android:name=".services.cardapios.DiasCardapioActivity"
             android:exported="true"
             android:label="@string/txt_tela_dias_semana"
