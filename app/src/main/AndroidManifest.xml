@@ -19,6 +19,57 @@
         android:supportsRtl="true"
         tools:targetApi="31">
         <activity
+<<<<<<< HEAD
+            android:name=".services.cardapios.SabadoActivity"
+            android:exported="true"
+            android:label="@string/toolbar_sabado"
+            android:parentActivityName=".services.cardapios.DiasCardapioActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MeuRU"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".services.cardapios.SextaFeiraActivity"
+            android:exported="true"
+            android:label="@string/toolbar_sexta"
+            android:parentActivityName=".services.cardapios.DiasCardapioActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MeuRU"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".services.cardapios.QuintaFeiraActivity"
+            android:exported="true"
+            android:label="@string/toolbar_quinta"
+            android:parentActivityName=".services.cardapios.DiasCardapioActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MeuRU"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".services.cardapios.QuartaFeiraActivity"
+            android:exported="true"
+            android:label="@string/toolbar_quarta"
+            android:parentActivityName=".services.cardapios.DiasCardapioActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MeuRU"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".services.cardapios.TercaFeiraActivity"
+            android:exported="true"
+            android:label="@string/toolbar_terca"
+            android:parentActivityName=".services.cardapios.DiasCardapioActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MeuRU"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".services.cardapios.SegundaFeiraActivity"
+            android:exported="true"
+            android:label="@string/toolbar_segunda"
+            android:parentActivityName=".services.cardapios.DiasCardapioActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MeuRU"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+=======
+>>>>>>> parent of a375af6 (Merge pull request #6 from ConceicaoNeves/feature/MR-05_Cardapio-de-segunda-feira)
             android:name=".services.cardapios.DiasCardapioActivity"
             android:exported="true"
             android:label="@string/txt_tela_dias_semana"
